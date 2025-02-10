@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body{
+    display: flex;
+    background: linear-gradient(to right, #00b4db, #0083b0);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.roll{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.box,img{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 14px;
+}
+.dices{
+    display: flex;
+    flex-wrap: wrap;
+}
